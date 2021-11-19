@@ -14,9 +14,10 @@ int main() {
     bool quit;
     string userInput;
     vector<string> wrongGuesses;
-    quit = false;
 
     cout << "Welcome to Hang Man!" << endl;
+    
+    quit = false;
 
     while (!quit) {
         int numCorrectGuesses = 0;
