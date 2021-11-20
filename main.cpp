@@ -22,6 +22,7 @@ int main() {
     while (!quit) {
         int numCorrectGuesses = 0;
         int numWrongGuesses = 0;
+        wrongGuesses.clear();
         string responsesB[RANDOM_WORDS]{
                 "Ape",
                 "Fat",
